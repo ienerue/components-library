@@ -1,10 +1,11 @@
+
 import Badges from "./components/Badges/Badges"
 import Banners from "./components/Banners/Banners"
 import Card from "./components/Card/Card"
 import Testimonial from "./components/Testimonial/Testimonial"
 import PlaceholderIcon from "./assets/placeholder-icon.png"
 
-function App() {
+export default function App() {
   return (
     <main>
       <h1>Components library</h1>
@@ -23,5 +24,3 @@ function App() {
     </main>
   )
 }
-
-export default App
